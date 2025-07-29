@@ -1,0 +1,8 @@
+# what to do
+
+Node 1 : (publisher) - this will publish the images
+[camerapublisher]
+
+Node 2 : (subscriber : to images, action client : to Yolo) - this will recieve the images and act as a action client
+
+NOde 3 : (action server ; to Yolo) - this will act as a action server for the YOLO

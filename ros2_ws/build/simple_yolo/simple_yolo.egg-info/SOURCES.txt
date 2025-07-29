@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+resource/simple_yolo
+simple_yolo/__init__.py
+simple_yolo/camerapublisher.py
+simple_yolo.egg-info/PKG-INFO
+simple_yolo.egg-info/SOURCES.txt
+simple_yolo.egg-info/dependency_links.txt
+simple_yolo.egg-info/entry_points.txt
+simple_yolo.egg-info/requires.txt
+simple_yolo.egg-info/top_level.txt
+simple_yolo.egg-info/zip-safe

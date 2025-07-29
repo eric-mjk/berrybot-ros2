@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from interfaces/action/Perception.action
+// generated code does not contain a copyright notice
+
+#include "interfaces/msg/YoloDetection.idl"
+
+module interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal definition")
+    struct Perception_Goal {
+      boolean run;
+    };
+    @verbatim (language="comment", text=
+      "Result definition")
+    struct Perception_Result {
+      interfaces::msg::YoloDetection yolo_result;
+    };
+    @verbatim (language="comment", text=
+      "Feedback definition")
+    struct Perception_Feedback {
+      string status;
+    };
+  };
+};
