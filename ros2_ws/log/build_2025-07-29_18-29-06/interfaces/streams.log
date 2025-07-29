@@ -1,0 +1,274 @@
+[0.010s] Invoking command in '/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/simple_yolo:/opt/ros/humble /usr/bin/cmake /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces
+[0.056s] -- The C compiler identification is GNU 11.4.0
+[0.101s] -- The CXX compiler identification is GNU 11.4.0
+[0.108s] -- Detecting C compiler ABI info
+[0.165s] -- Detecting C compiler ABI info - done
+[0.170s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.171s] -- Detecting C compile features
+[0.171s] -- Detecting C compile features - done
+[0.175s] -- Detecting CXX compiler ABI info
+[0.241s] -- Detecting CXX compiler ABI info - done
+[0.246s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.246s] -- Detecting CXX compile features
+[0.247s] -- Detecting CXX compile features - done
+[0.249s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.377s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.475s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.477s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.480s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.503s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.524s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.544s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.569s] -- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)
+[0.857s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.127s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.491s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.508s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.517s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.539s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.539s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.539s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.539s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.580s] -- Found PythonExtra: .so  
+[1.661s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.667s] -- Configuring done
+[1.708s] -- Generating done
+[1.718s] -- Build files have been written to: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/build/interfaces
+[1.726s] Invoked command in '/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/simple_yolo:/opt/ros/humble /usr/bin/cmake /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces
+[1.728s] Invoking command in '/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/simple_yolo:/opt/ros/humble /usr/bin/cmake --build /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/build/interfaces -- -j18 -l18
+[1.763s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.772s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.775s] [  5%] Built target ament_cmake_python_copy_interfaces
+[2.005s] running egg_info
+[2.005s] creating interfaces.egg-info
+[2.006s] writing interfaces.egg-info/PKG-INFO
+[2.006s] writing dependency_links to interfaces.egg-info/dependency_links.txt
+[2.006s] writing top-level names to interfaces.egg-info/top_level.txt
+[2.006s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[2.008s] reading manifest file 'interfaces.egg-info/SOURCES.txt'
+[2.008s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[2.036s] [  5%] Built target ament_cmake_python_build_interfaces_egg
+[2.160s] [  5%] Built target interfaces__cpp
+[2.167s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.167s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.168s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.461s] [ 15%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/action/detail/perception__functions.c.o[0m
+[2.461s] [ 17%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/yolo_detection__functions.c.o[0m
+[2.468s] [ 20%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/action/detail/perception__type_support.cpp.o[0m
+[2.470s] [ 23%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/yolo_detection__type_support.cpp.o[0m
+[2.485s] [ 28%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/yolo_detection__type_support.cpp.o[0m
+[2.486s] [ 28%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/action/perception__type_support.cpp.o[0m
+[2.571s] [ 30%] [32m[1mLinking C shared library libinterfaces__rosidl_generator_c.so[0m
+[2.606s] [ 30%] Built target interfaces__rosidl_generator_c
+[2.614s] [ 33%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.614s] [ 35%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.616s] [ 38%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.826s] [ 43%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/action/detail/dds_fastrtps/perception__type_support.cpp.o[0m
+[2.826s] [ 43%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/yolo_detection__type_support.cpp.o[0m
+[2.990s] [ 46%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so[0m
+[3.042s] [ 46%] Built target interfaces__rosidl_typesupport_cpp
+[3.096s] [ 51%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/action/detail/perception__type_support.c.o[0m
+[3.096s] [ 51%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/yolo_detection__type_support.c.o[0m
+[3.157s] [ 53%] [32m[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so[0m
+[3.190s] [ 53%] Built target interfaces__rosidl_typesupport_introspection_c
+[3.222s] [ 56%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/yolo_detection__type_support_c.cpp.o[0m
+[3.226s] [ 58%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/action/detail/perception__type_support_c.cpp.o[0m
+[3.241s] [ 61%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/yolo_detection__type_support.cpp.o[0m
+[3.258s] [ 64%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/action/perception__type_support.cpp.o[0m
+[3.317s] [ 66%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so[0m
+[3.331s] [ 69%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.362s] [ 69%] Built target interfaces__rosidl_typesupport_c
+[3.427s] [ 69%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[3.446s] [ 71%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.607s] [ 71%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[3.641s] [ 74%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.705s] [ 74%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[3.723s] [ 74%] Built target interfaces
+[3.742s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.405s] [ 76%] Built target interfaces__py
+[4.418s] [ 79%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_yolo_detection_s.c.o[0m
+[4.419s] [ 82%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/action/_perception_s.c.o[0m
+[4.511s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.so[0m
+[4.548s] [ 84%] Built target interfaces__rosidl_generator_py
+[4.562s] [ 87%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.563s] [ 89%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.563s] [ 92%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.663s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.666s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.700s] [ 97%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.700s] [ 97%] Built target interfaces__rosidl_typesupport_introspection_c__pyext
+[4.764s] [100%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.804s] [100%] Built target interfaces__rosidl_typesupport_c__pyext
+[4.817s] Invoked command in '/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/simple_yolo:/opt/ros/humble /usr/bin/cmake --build /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/build/interfaces -- -j18 -l18
+[4.823s] Invoking command in '/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/simple_yolo:/opt/ros/humble /usr/bin/cmake --install /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/build/interfaces
+[4.827s] -- Install configuration: ""
+[4.827s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces
+[4.827s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces
+[4.828s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg
+[4.828s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail
+[4.828s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/yolo_detection__functions.c
+[4.828s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/yolo_detection__functions.h
+[4.828s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/yolo_detection__type_support.h
+[4.828s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/yolo_detection__struct.h
+[4.828s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/yolo_detection.h
+[4.828s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.828s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action
+[4.828s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail
+[4.828s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail/perception__functions.c
+[4.828s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail/perception__struct.h
+[4.828s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail/perception__type_support.h
+[4.829s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail/perception__functions.h
+[4.829s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action/perception.h
+[4.829s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/environment/library_path.sh
+[4.829s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/environment/library_path.dsv
+[4.829s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so
+[4.829s] -- Set runtime path of "/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""
+[4.829s] -- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces
+[4.829s] -- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg
+[4.829s] -- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail
+[4.829s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/yolo_detection__rosidl_typesupport_fastrtps_c.h
+[4.829s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.829s] -- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action
+[4.829s] -- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail
+[4.829s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail/perception__rosidl_typesupport_fastrtps_c.h
+[4.829s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so
+[4.829s] -- Set runtime path of "/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[4.829s] -- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces
+[4.830s] -- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg
+[4.830s] -- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail
+[4.830s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/yolo_detection__rosidl_typesupport_introspection_c.h
+[4.830s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/yolo_detection__type_support.c
+[4.830s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.830s] -- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action
+[4.830s] -- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail
+[4.830s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail/perception__rosidl_typesupport_introspection_c.h
+[4.830s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail/perception__type_support.c
+[4.830s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so
+[4.830s] -- Set runtime path of "/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.830s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so
+[4.830s] -- Set runtime path of "/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""
+[4.830s] -- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces
+[4.830s] -- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg
+[4.830s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/yolo_detection.hpp
+[4.830s] -- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail
+[4.830s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/yolo_detection__type_support.hpp
+[4.830s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/yolo_detection__struct.hpp
+[4.830s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/yolo_detection__traits.hpp
+[4.830s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/yolo_detection__builder.hpp
+[4.831s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.831s] -- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action
+[4.831s] -- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail
+[4.831s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail/perception__builder.hpp
+[4.831s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail/perception__type_support.hpp
+[4.831s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail/perception__traits.hpp
+[4.831s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail/perception__struct.hpp
+[4.831s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action/perception.hpp
+[4.831s] -- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces
+[4.831s] -- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg
+[4.831s] -- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail
+[4.831s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/dds_fastrtps
+[4.831s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/yolo_detection__rosidl_typesupport_fastrtps_cpp.hpp
+[4.831s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.831s] -- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action
+[4.831s] -- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail
+[4.831s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail/dds_fastrtps
+[4.831s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail/perception__rosidl_typesupport_fastrtps_cpp.hpp
+[4.831s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.831s] -- Set runtime path of "/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.831s] -- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces
+[4.832s] -- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg
+[4.832s] -- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail
+[4.832s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/yolo_detection__rosidl_typesupport_introspection_cpp.hpp
+[4.832s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/yolo_detection__type_support.cpp
+[4.832s] -- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action
+[4.832s] -- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail
+[4.832s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail/perception__rosidl_typesupport_introspection_cpp.hpp
+[4.832s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail/perception__type_support.cpp
+[4.832s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so
+[4.832s] -- Set runtime path of "/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.832s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so
+[4.832s] -- Set runtime path of "/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""
+[4.833s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/environment/pythonpath.sh
+[4.833s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/environment/pythonpath.dsv
+[4.833s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info
+[4.833s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[4.833s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[4.833s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.833s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.833s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces
+[4.833s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py
+[4.833s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.833s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/libinterfaces__rosidl_generator_py.so
+[4.833s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.833s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.834s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.834s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg
+[4.834s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/__init__.py
+[4.834s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_yolo_detection.py
+[4.834s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_yolo_detection_s.c
+[4.834s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c
+[4.834s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.834s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action
+[4.834s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action/__init__.py
+[4.834s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action/_perception_s.c
+[4.834s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action/_perception.py
+[4.863s] Listing '/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces'...
+[4.863s] Compiling '/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py'...
+[4.863s] Listing '/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action'...
+[4.863s] Compiling '/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action/__init__.py'...
+[4.863s] Compiling '/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action/_perception.py'...
+[4.863s] Listing '/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg'...
+[4.863s] Compiling '/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/__init__.py'...
+[4.863s] Compiling '/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_yolo_detection.py'...
+[4.866s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.866s] -- Set runtime path of "/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.866s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.867s] -- Set runtime path of "/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.867s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.867s] -- Set runtime path of "/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.867s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_generator_py.so
+[4.868s] -- Set runtime path of "/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_generator_py.so" to ""
+[4.868s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/msg/YoloDetection.idl
+[4.868s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/action/Perception.idl
+[4.868s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/msg/YoloDetection.msg
+[4.868s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/action/Perception.action
+[4.868s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces
+[4.868s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces
+[4.868s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.sh
+[4.868s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv
+[4.868s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/environment/path.sh
+[4.868s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/environment/path.dsv
+[4.868s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/local_setup.bash
+[4.869s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/local_setup.sh
+[4.869s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/local_setup.zsh
+[4.869s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/local_setup.dsv
+[4.869s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/package.dsv
+[4.869s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/ament_index/resource_index/packages/interfaces
+[4.869s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake
+[4.869s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.869s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.869s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.869s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.869s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.869s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake
+[4.869s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.869s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake
+[4.869s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.869s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.870s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.870s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.870s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake
+[4.870s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.870s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake
+[4.870s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.870s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake
+[4.870s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.870s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.870s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.870s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.870s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.870s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.870s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake
+[4.870s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake
+[4.870s] -- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/package.xml
+[4.873s] Invoked command in '/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/simple_yolo:/opt/ros/humble /usr/bin/cmake --install /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/build/interfaces

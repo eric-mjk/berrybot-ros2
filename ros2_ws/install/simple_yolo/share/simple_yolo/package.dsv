@@ -4,6 +4,3 @@ source;share/simple_yolo/hook/pythonpath.sh
 source;share/simple_yolo/hook/ament_prefix_path.ps1
 source;share/simple_yolo/hook/ament_prefix_path.dsv
 source;share/simple_yolo/hook/ament_prefix_path.sh
-source;../../build/simple_yolo/share/simple_yolo/hook/pythonpath_develop.ps1
-source;../../build/simple_yolo/share/simple_yolo/hook/pythonpath_develop.dsv
-source;../../build/simple_yolo/share/simple_yolo/hook/pythonpath_develop.sh
