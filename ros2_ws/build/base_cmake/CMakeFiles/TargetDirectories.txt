@@ -1,0 +1,9 @@
+/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/build/base_cmake/CMakeFiles/uninstall.dir
+/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/build/base_cmake/CMakeFiles/base_cmake_uninstall.dir
+/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/build/base_cmake/CMakeFiles/test.dir
+/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/build/base_cmake/CMakeFiles/edit_cache.dir
+/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/build/base_cmake/CMakeFiles/rebuild_cache.dir
+/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/build/base_cmake/CMakeFiles/list_install_components.dir
+/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/build/base_cmake/CMakeFiles/install.dir
+/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/build/base_cmake/CMakeFiles/install/local.dir
+/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/build/base_cmake/CMakeFiles/install/strip.dir

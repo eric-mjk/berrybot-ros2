@@ -1,0 +1,15 @@
+/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/base_cmake/share/ament_index/resource_index/package_run_dependencies/base_cmake
+/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/base_cmake/share/ament_index/resource_index/parent_prefix_path/base_cmake
+/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/base_cmake/share/base_cmake/environment/ament_prefix_path.sh
+/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/base_cmake/share/base_cmake/environment/ament_prefix_path.dsv
+/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/base_cmake/share/base_cmake/environment/path.sh
+/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/base_cmake/share/base_cmake/environment/path.dsv
+/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/base_cmake/share/base_cmake/local_setup.bash
+/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/base_cmake/share/base_cmake/local_setup.sh
+/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/base_cmake/share/base_cmake/local_setup.zsh
+/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/base_cmake/share/base_cmake/local_setup.dsv
+/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/base_cmake/share/base_cmake/package.dsv
+/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/base_cmake/share/ament_index/resource_index/packages/base_cmake
+/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/base_cmake/share/base_cmake/cmake/base_cmakeConfig.cmake
+/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/base_cmake/share/base_cmake/cmake/base_cmakeConfig-version.cmake
+/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/base_cmake/share/base_cmake/package.xml
