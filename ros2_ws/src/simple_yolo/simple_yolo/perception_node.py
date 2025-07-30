@@ -39,17 +39,19 @@ float32 conf3
 
 import os
 import sys
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'ultralytics'))
-from ultralytics import YOLO
 from ament_index_python.packages import get_package_share_directory
 
+from ultralytics.ultralytics import YOLO
 
 class PerceptionNode(Node):
     def __init__(self):
         super().__init__('perception_node')
 
-        pkg_path = get_package_share_directory('simple_yolo')
-        model_path = os.path.join(pkg_path, 'models', 'model1.pt')
+        model_path = os.path.join(
+            get_package_share_directory('simple_yolo'),
+            'models', 'model1.pt'
+        )
+
         self.model = YOLO(model_path)
 
         self.bridge = CvBridge()

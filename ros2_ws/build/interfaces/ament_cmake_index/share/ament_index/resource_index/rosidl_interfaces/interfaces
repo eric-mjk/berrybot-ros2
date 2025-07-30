@@ -1,4 +1,0 @@
-action/Perception.action
-action/Perception.idl
-msg/YoloDetection.idl
-msg/YoloDetection.msg

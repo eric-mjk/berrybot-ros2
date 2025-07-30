@@ -1,0 +1,4 @@
+[submodule "ros2_ws/src/simple_yolo/ultralytics"]
+	path = ros2_ws/src/simple_yolo/ultralytics
+	url = https://github.com/eric-mjk/ultralytics.git
+	branch = MY_BRANCH
