@@ -1,0 +1,359 @@
+[0.000000] (-) TimerEvent: {}
+[0.000663] (-) JobUnselected: {'identifier': 'simple_yolo'}
+[0.000715] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.000739] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.011433] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.012046] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/src/interfaces', '-DCMAKE_INSTALL_PREFIX=/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces'], 'cwd': '/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/build/interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mj'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mj'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.98.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1637'), ('SYSTEMD_EXEC_PID', '1817'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8530'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mj'), ('JOURNAL_STREAM', '8:21000'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mj/.local/bin:/opt/ros/humble/bin:/home/mj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mj-computer:@/tmp/.ICE-unix/1789,unix/mj-computer:/tmp/.ICE-unix/1789'), ('INVOCATION_ID', 'a7202830a2f3477b807f5209beac9ae3'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.49I492'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-154c681548.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099675] (-) TimerEvent: {}
+[0.114274] (interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.196313] (interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.199729] (-) TimerEvent: {}
+[0.205922] (interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299895] (-) TimerEvent: {}
+[0.312002] (interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.328875] (interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.331018] (interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.334131] (interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.348722] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400077] (-) TimerEvent: {}
+[0.473353] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.478067] (interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.478380] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.478433] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.481342] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.500173] (-) TimerEvent: {}
+[0.600581] (-) TimerEvent: {}
+[0.693571] (interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.700699] (-) TimerEvent: {}
+[0.781785] (interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.787887] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.794132] (interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.800839] (-) TimerEvent: {}
+[0.831810] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.872284] (interfaces) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.895498] (interfaces) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.900980] (-) TimerEvent: {}
+[0.931291] (interfaces) StdoutLine: {'line': b'-- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)\n'}
+[1.001246] (-) TimerEvent: {}
+[1.101931] (-) TimerEvent: {}
+[1.202541] (-) TimerEvent: {}
+[1.302943] (-) TimerEvent: {}
+[1.403411] (-) TimerEvent: {}
+[1.413412] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.503739] (-) TimerEvent: {}
+[1.604495] (-) TimerEvent: {}
+[1.704840] (-) TimerEvent: {}
+[1.805289] (-) TimerEvent: {}
+[1.897889] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.905419] (-) TimerEvent: {}
+[2.006231] (-) TimerEvent: {}
+[2.107189] (-) TimerEvent: {}
+[2.207589] (-) TimerEvent: {}
+[2.307910] (-) TimerEvent: {}
+[2.408294] (-) TimerEvent: {}
+[2.471857] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.505081] (interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.506675] (interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.508351] (-) TimerEvent: {}
+[2.561455] (interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.561778] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.561860] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.561920] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.608527] (-) TimerEvent: {}
+[2.622752] (interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.707829] (interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.708570] (-) TimerEvent: {}
+[2.717153] (interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.808748] (-) TimerEvent: {}
+[2.810935] (interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.826031] (interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/build/interfaces\n'}
+[2.845405] (interfaces) CommandEnded: {'returncode': 0}
+[2.846194] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[2.847200] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/build/interfaces', '--', '-j18', '-l18'], 'cwd': '/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/build/interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mj'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mj'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.98.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1637'), ('SYSTEMD_EXEC_PID', '1817'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8530'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mj'), ('JOURNAL_STREAM', '8:21000'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mj/.local/bin:/opt/ros/humble/bin:/home/mj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mj-computer:@/tmp/.ICE-unix/1789,unix/mj-computer:/tmp/.ICE-unix/1789'), ('INVOCATION_ID', 'a7202830a2f3477b807f5209beac9ae3'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.49I492'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-154c681548.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.908866] (-) TimerEvent: {}
+[2.925203] (interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.935180] (interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.954674] (interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_interfaces\n'}
+[3.008982] (-) TimerEvent: {}
+[3.109314] (-) TimerEvent: {}
+[3.210039] (-) TimerEvent: {}
+[3.310475] (-) TimerEvent: {}
+[3.314435] (interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[3.315147] (interfaces) StdoutLine: {'line': b'creating interfaces.egg-info\n'}
+[3.315407] (interfaces) StdoutLine: {'line': b'writing interfaces.egg-info/PKG-INFO\n'}
+[3.315519] (interfaces) StdoutLine: {'line': b'writing dependency_links to interfaces.egg-info/dependency_links.txt\n'}
+[3.315632] (interfaces) StdoutLine: {'line': b'writing top-level names to interfaces.egg-info/top_level.txt\n'}
+[3.315861] (interfaces) StdoutLine: {'line': b"writing manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[3.319433] (interfaces) StdoutLine: {'line': b"reading manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[3.320231] (interfaces) StdoutLine: {'line': b"writing manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[3.362097] (interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_interfaces_egg\n'}
+[3.410647] (-) TimerEvent: {}
+[3.511136] (-) TimerEvent: {}
+[3.611490] (-) TimerEvent: {}
+[3.711839] (-) TimerEvent: {}
+[3.751423] (interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/action/detail/perception__functions.c.o\x1b[0m\n'}
+[3.751704] (interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/yolo_detection__functions.c.o\x1b[0m\n'}
+[3.758218] (interfaces) StdoutLine: {'line': b'[ 10%] Built target interfaces__cpp\n'}
+[3.764732] (interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.767835] (interfaces) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.768039] (interfaces) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.811927] (-) TimerEvent: {}
+[3.912232] (-) TimerEvent: {}
+[3.947850] (interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libinterfaces__rosidl_generator_c.so\x1b[0m\n'}
+[4.012334] (-) TimerEvent: {}
+[4.013804] (interfaces) StdoutLine: {'line': b'[ 20%] Built target interfaces__rosidl_generator_c\n'}
+[4.023731] (interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.024014] (interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.036080] (interfaces) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.112537] (-) TimerEvent: {}
+[4.213208] (-) TimerEvent: {}
+[4.313982] (-) TimerEvent: {}
+[4.375743] (interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/yolo_detection__type_support.cpp.o\x1b[0m\n'}
+[4.386883] (interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/action/perception__type_support.cpp.o\x1b[0m\n'}
+[4.414084] (-) TimerEvent: {}
+[4.492836] (interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/yolo_detection__type_support.cpp.o\x1b[0m\n'}
+[4.496708] (interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/action/detail/perception__type_support.cpp.o\x1b[0m\n'}
+[4.514198] (-) TimerEvent: {}
+[4.614525] (-) TimerEvent: {}
+[4.675240] (interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/yolo_detection__type_support.cpp.o\x1b[0m\n'}
+[4.675479] (interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/action/detail/dds_fastrtps/perception__type_support.cpp.o\x1b[0m\n'}
+[4.696032] (interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/yolo_detection__type_support.cpp.o\x1b[0m\n'}
+[4.699153] (interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/action/perception__type_support.cpp.o\x1b[0m\n'}
+[4.714895] (-) TimerEvent: {}
+[4.787179] (interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.815150] (-) TimerEvent: {}
+[4.853136] (interfaces) StdoutLine: {'line': b'[ 51%] Built target interfaces__rosidl_typesupport_c\n'}
+[4.915387] (-) TimerEvent: {}
+[4.960076] (interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/action/detail/perception__type_support.c.o\x1b[0m\n'}
+[4.960363] (interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/yolo_detection__type_support.c.o\x1b[0m\n'}
+[5.015485] (-) TimerEvent: {}
+[5.032433] (interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/yolo_detection__type_support_c.cpp.o\x1b[0m\n'}
+[5.032823] (interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/action/detail/perception__type_support_c.cpp.o\x1b[0m\n'}
+[5.041436] (interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.093127] (interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.096892] (interfaces) StdoutLine: {'line': b'[ 66%] Built target interfaces__rosidl_typesupport_introspection_c\n'}
+[5.116017] (-) TimerEvent: {}
+[5.184212] (interfaces) StdoutLine: {'line': b'[ 66%] Built target interfaces__rosidl_typesupport_cpp\n'}
+[5.216164] (-) TimerEvent: {}
+[5.316543] (-) TimerEvent: {}
+[5.416926] (-) TimerEvent: {}
+[5.517262] (-) TimerEvent: {}
+[5.617665] (-) TimerEvent: {}
+[5.662360] (interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.697886] (interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.717809] (-) TimerEvent: {}
+[5.767558] (interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.799225] (interfaces) StdoutLine: {'line': b'[ 74%] Built target interfaces__rosidl_typesupport_introspection_cpp\n'}
+[5.817929] (-) TimerEvent: {}
+[5.835702] (interfaces) StdoutLine: {'line': b'[ 74%] Built target interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[5.918032] (-) TimerEvent: {}
+[5.918945] (interfaces) StdoutLine: {'line': b'[ 74%] Built target interfaces__rosidl_typesupport_fastrtps_c\n'}
+[5.941209] (interfaces) StdoutLine: {'line': b'[ 74%] Built target interfaces\n'}
+[5.967710] (interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[6.018207] (-) TimerEvent: {}
+[6.118709] (-) TimerEvent: {}
+[6.219033] (-) TimerEvent: {}
+[6.319299] (-) TimerEvent: {}
+[6.420127] (-) TimerEvent: {}
+[6.520998] (-) TimerEvent: {}
+[6.621699] (-) TimerEvent: {}
+[6.722130] (-) TimerEvent: {}
+[6.822938] (-) TimerEvent: {}
+[6.918080] (interfaces) StdoutLine: {'line': b'[ 76%] Built target interfaces__py\n'}
+[6.923001] (-) TimerEvent: {}
+[6.936786] (interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_yolo_detection_s.c.o\x1b[0m\n'}
+[6.937105] (interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/action/_perception_s.c.o\x1b[0m\n'}
+[7.023128] (-) TimerEvent: {}
+[7.110086] (interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.so\x1b[0m\n'}
+[7.123272] (-) TimerEvent: {}
+[7.154802] (interfaces) StdoutLine: {'line': b'[ 84%] Built target interfaces__rosidl_generator_py\n'}
+[7.174483] (interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.174729] (interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[7.174802] (interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.223426] (-) TimerEvent: {}
+[7.323897] (-) TimerEvent: {}
+[7.329060] (interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.386982] (interfaces) StdoutLine: {'line': b'[ 94%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.393975] (interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.419093] (interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.424036] (-) TimerEvent: {}
+[7.436853] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[7.462509] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_c__pyext\n'}
+[7.473566] (interfaces) CommandEnded: {'returncode': 0}
+[7.474039] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'install'}
+[7.480444] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/build/interfaces'], 'cwd': '/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/build/interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mj'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mj'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.98.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1637'), ('SYSTEMD_EXEC_PID', '1817'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8530'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mj'), ('JOURNAL_STREAM', '8:21000'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mj/.local/bin:/opt/ros/humble/bin:/home/mj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mj-computer:@/tmp/.ICE-unix/1789,unix/mj-computer:/tmp/.ICE-unix/1789'), ('INVOCATION_ID', 'a7202830a2f3477b807f5209beac9ae3'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.49I492'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-154c681548.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/build/interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.487752] (interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.487915] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces\n'}
+[7.488146] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces\n'}
+[7.488219] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[7.488286] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[7.488345] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/yolo_detection__functions.c\n'}
+[7.488468] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/yolo_detection__functions.h\n'}
+[7.488529] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/yolo_detection__type_support.h\n'}
+[7.488632] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/yolo_detection__struct.h\n'}
+[7.488733] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/yolo_detection.h\n'}
+[7.488801] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.488892] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action\n'}
+[7.488975] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail\n'}
+[7.489032] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail/perception__functions.c\n'}
+[7.489312] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail/perception__struct.h\n'}
+[7.489356] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail/perception__type_support.h\n'}
+[7.489441] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail/perception__functions.h\n'}
+[7.489582] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action/perception.h\n'}
+[7.489762] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/environment/library_path.sh\n'}
+[7.489920] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/environment/library_path.dsv\n'}
+[7.490097] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so\n'}
+[7.490488] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""\n'}
+[7.490539] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces\n'}
+[7.490690] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[7.490985] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[7.491019] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/yolo_detection__rosidl_typesupport_fastrtps_c.h\n'}
+[7.491055] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.491121] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action\n'}
+[7.491148] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail\n'}
+[7.491174] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail/perception__rosidl_typesupport_fastrtps_c.h\n'}
+[7.491201] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[7.491353] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[7.491419] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces\n'}
+[7.491482] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[7.491527] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[7.491581] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/yolo_detection__rosidl_typesupport_introspection_c.h\n'}
+[7.491635] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/yolo_detection__type_support.c\n'}
+[7.491734] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.491830] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action\n'}
+[7.491871] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail\n'}
+[7.491930] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail/perception__rosidl_typesupport_introspection_c.h\n'}
+[7.492007] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail/perception__type_support.c\n'}
+[7.492263] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so\n'}
+[7.492739] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[7.492852] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so\n'}
+[7.493366] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""\n'}
+[7.493436] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces\n'}
+[7.493494] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[7.493568] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/yolo_detection.hpp\n'}
+[7.493733] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[7.493802] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/yolo_detection__type_support.hpp\n'}
+[7.494002] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/yolo_detection__struct.hpp\n'}
+[7.494181] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/yolo_detection__traits.hpp\n'}
+[7.494405] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/yolo_detection__builder.hpp\n'}
+[7.494673] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[7.495093] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action\n'}
+[7.495211] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail\n'}
+[7.495386] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail/perception__builder.hpp\n'}
+[7.495834] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail/perception__type_support.hpp\n'}
+[7.496276] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail/perception__traits.hpp\n'}
+[7.496735] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail/perception__struct.hpp\n'}
+[7.497304] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action/perception.hpp\n'}
+[7.497853] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces\n'}
+[7.498027] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[7.498181] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[7.498262] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/dds_fastrtps\n'}
+[7.498643] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/yolo_detection__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.499127] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.499457] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action\n'}
+[7.499607] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail\n'}
+[7.499763] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail/dds_fastrtps\n'}
+[7.500093] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail/perception__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.500809] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.502535] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[7.502784] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces\n'}
+[7.502920] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[7.503033] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[7.503179] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/yolo_detection__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.503638] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/msg/detail/yolo_detection__type_support.cpp\n'}
+[7.504103] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action\n'}
+[7.504192] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail\n'}
+[7.504338] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail/perception__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.504909] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/include/interfaces/interfaces/action/detail/perception__type_support.cpp\n'}
+[7.505786] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[7.507429] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[7.507751] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so\n'}
+[7.509638] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[7.509927] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/environment/pythonpath.sh\n'}
+[7.510517] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/environment/pythonpath.dsv\n'}
+[7.511094] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info\n'}
+[7.511827] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[7.512249] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[7.512626] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[7.513116] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[7.513731] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces\n'}
+[7.514104] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py\n'}
+[7.514482] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.515146] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/libinterfaces__rosidl_generator_py.so\n'}
+[7.515731] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.516300] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.516870] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.517439] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg\n'}
+[7.517862] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/__init__.py\n'}
+[7.518667] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_yolo_detection.py\n'}
+[7.519191] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_yolo_detection_s.c\n'}
+[7.519604] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[7.520224] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.520753] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action\n'}
+[7.521128] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action/__init__.py\n'}
+[7.521492] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action/_perception_s.c\n'}
+[7.521987] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action/_perception.py\n'}
+[7.524101] (-) TimerEvent: {}
+[7.603896] (interfaces) StdoutLine: {'line': b"Listing '/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces'...\n"}
+[7.604126] (interfaces) StdoutLine: {'line': b"Compiling '/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py'...\n"}
+[7.604228] (interfaces) StdoutLine: {'line': b"Listing '/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action'...\n"}
+[7.604301] (interfaces) StdoutLine: {'line': b"Compiling '/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action/__init__.py'...\n"}
+[7.604361] (interfaces) StdoutLine: {'line': b"Compiling '/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/action/_perception.py'...\n"}
+[7.604419] (interfaces) StdoutLine: {'line': b"Listing '/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg'...\n"}
+[7.604530] (interfaces) StdoutLine: {'line': b"Compiling '/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/__init__.py'...\n"}
+[7.604583] (interfaces) StdoutLine: {'line': b"Compiling '/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_yolo_detection.py'...\n"}
+[7.611383] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.611923] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[7.612053] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.612282] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[7.612410] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.612527] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[7.612646] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_generator_py.so\n'}
+[7.613054] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/lib/libinterfaces__rosidl_generator_py.so" to ""\n'}
+[7.613196] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/msg/YoloDetection.idl\n'}
+[7.613347] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/action/Perception.idl\n'}
+[7.613493] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/msg/YoloDetection.msg\n'}
+[7.613609] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/action/Perception.action\n'}
+[7.613724] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces\n'}
+[7.613852] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces\n'}
+[7.613982] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.sh\n'}
+[7.614090] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv\n'}
+[7.614206] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/environment/path.sh\n'}
+[7.614324] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/environment/path.dsv\n'}
+[7.614448] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/local_setup.bash\n'}
+[7.614663] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/local_setup.sh\n'}
+[7.614860] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/local_setup.zsh\n'}
+[7.615157] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/local_setup.dsv\n'}
+[7.615381] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/package.dsv\n'}
+[7.615553] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/ament_index/resource_index/packages/interfaces\n'}
+[7.615701] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake\n'}
+[7.615753] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.615876] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.615963] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[7.616214] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.616366] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.616479] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake\n'}
+[7.616646] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.616708] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake\n'}
+[7.616832] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.616931] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[7.617096] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.617223] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.617330] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[7.617385] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.617566] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake\n'}
+[7.617701] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[7.617883] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[7.618017] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.618201] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.618366] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.618538] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.618724] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.618918] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.619116] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake\n'}
+[7.619271] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake\n'}
+[7.619457] (interfaces) StdoutLine: {'line': b'-- Installing: /home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/install/interfaces/share/interfaces/package.xml\n'}
+[7.623822] (interfaces) CommandEnded: {'returncode': 0}
+[7.624289] (-) TimerEvent: {}
+[7.639576] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 0}
+[7.640352] (-) EventReactorShutdown: {}
