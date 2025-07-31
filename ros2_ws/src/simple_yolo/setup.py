@@ -26,6 +26,7 @@ setup(
         'console_scripts': [
             'camera = simple_yolo.camera:main',
             'perception_node = simple_yolo.perception_node:main',
+            'perception_client = simple_yolo.perception_client:main',
         ],
     },
 )
