@@ -14,7 +14,7 @@ from interfaces.msg import YoloDetection
 bool run
 ---
 # Result definition
-YoloDetection[] yolo_result
+YoloDetection yolo_result
 ---
 # Feedback definition
 string status
@@ -53,9 +53,9 @@ class PerceptionNode(Node):
         )
 
         self.model = YOLO(model_path)
-
         self.bridge = CvBridge()
         self.latest_image = None
+        self.latest_perception = None
 
         # Image subscriber
         self.subscription = self.create_subscription(
@@ -79,7 +79,7 @@ class PerceptionNode(Node):
         self.latest_image = msg
         self.get_logger().debug("Image received.")
 
-    async def execute_callback(self, goal_handle):
+    def execute_callback(self, goal_handle):
         self.get_logger().info("Received perception goal.")
 
         if self.latest_image is None:
@@ -96,8 +96,15 @@ class PerceptionNode(Node):
             return Perception.Result()
 
         # Placeholder processing function (res is type msg : YoloDetection)
-        res = self.process_image(cv_image)
-        result = Perception.Result(yolo_result = res)
+        processed_model_result = self.process_image(cv_image)
+        assert type(processed_model_result) == list
+        if len(processed_model_result) == 0:
+            self.get_logger().warn(f"No strawberries detected")
+            goal_handle.abort()
+            return Perception.Result()
+        
+        self.latest_perception = self.pick_perception(processed_model_result)
+        result = Perception.Result(yolo_result = self.latest_perception)
         goal_handle.succeed()
 
         return result
@@ -106,18 +113,7 @@ class PerceptionNode(Node):
         self.get_logger().info("Processing image...")
         model_result = self.model.predict(source=cv_image, conf=0.3, save=False, verbose=False)
         model_result = self.prediction_handling(model_result)
-
-        # box_conf = [res["bbox"]["confidence"] for res in model_result]
-        # max_value = max(box_conf)  # Finds the maximum value (8)
-        # max_index = box_conf.index(max_value)  # Finds the index of the first occurrence of 8 (3)
-
-        # res = model_result[max_index]
-
-        res = model_result
-        det = self.convert_to_custom_msg(res)
-
-        return det
-
+        return model_result
 
 
     def prediction_handling(self, results):
@@ -186,25 +182,34 @@ class PerceptionNode(Node):
         return confidence_data
 
 
-    def convert_to_custom_msg(self, data_list) -> YoloDetection[]:
-        res = []
-        for data in data_list:
-            det = YoloDetection()
-            bbox = data["bbox"]
-            kps = data["keypoints"]
+    def pick_perception(self, model_result) -> YoloDetection:
+        """
+        pick_perception(self, model_result)
+        - this function will receive a processed model result (which is asserted to be a list of dictionaries & len != 0)
+        - this function will return 1 perception result based on its previous perception results
+        """
+        max_conf = -1
+        data = None
+        for res in model_result:
+            if max_conf < res["bbox"]["confidence"]:
+                max_conf = res["bbox"]["confidence"]
+                data = res
 
-            det.x = float(bbox["x_center"])
-            det.y = float(bbox["y_center"])
-            det.w = float(bbox["width"])
-            det.h = float(bbox["height"])
-            det.conf = float(bbox["confidence"])
+        det = YoloDetection()
+        bbox = data["bbox"]
+        kps = data["keypoints"]
 
-            det.x1, det.y1, det.conf1 = float(kps[0]["x"]), float(kps[0]["y"]), float(kps[0]["confidence"])
-            det.x2, det.y2, det.conf2 = float(kps[1]["x"]), float(kps[1]["y"]), float(kps[1]["confidence"])
-            det.x3, det.y3, det.conf3 = float(kps[2]["x"]), float(kps[2]["y"]), float(kps[2]["confidence"])
-            
-            res.append(det)
-        return res
+        det.x = float(bbox["x_center"])
+        det.y = float(bbox["y_center"])
+        det.w = float(bbox["width"])
+        det.h = float(bbox["height"])
+        det.conf = float(bbox["confidence"])
+
+        det.x1, det.y1, det.conf1 = float(kps[0]["x"]), float(kps[0]["y"]), float(kps[0]["confidence"])
+        det.x2, det.y2, det.conf2 = float(kps[1]["x"]), float(kps[1]["y"]), float(kps[1]["confidence"])
+        det.x3, det.y3, det.conf3 = float(kps[2]["x"]), float(kps[2]["y"]), float(kps[2]["confidence"])
+        
+        return det
 
 
 
