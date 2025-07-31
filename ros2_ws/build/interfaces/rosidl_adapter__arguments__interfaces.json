@@ -1,0 +1,7 @@
+{
+  "package_name": "interfaces",
+  "non_idl_tuples": [
+    "/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/src/interfaces:msg/YoloDetection.msg",
+    "/home/mj/Desktop/BerryBot/git_folder/berrybot-ros2/ros2_ws/src/interfaces:action/Perception.action"
+  ]
+}
