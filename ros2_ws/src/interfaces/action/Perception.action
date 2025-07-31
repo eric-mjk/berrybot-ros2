@@ -2,7 +2,7 @@
 bool run
 ---
 # Result definition
-YoloDetection yolo_result
+YoloDetection[] yolo_result
 ---
 # Feedback definition
 string status

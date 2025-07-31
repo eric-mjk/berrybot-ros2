@@ -14,7 +14,7 @@ from interfaces.msg import YoloDetection
 bool run
 ---
 # Result definition
-YoloDetection yolo_result
+YoloDetection[] yolo_result
 ---
 # Feedback definition
 string status
@@ -96,23 +96,24 @@ class PerceptionNode(Node):
             return Perception.Result()
 
         # Placeholder processing function (res is type msg : YoloDetection)
-        res: YoloDetection = self.process_image(cv_image)
+        res = self.process_image(cv_image)
         result = Perception.Result(yolo_result = res)
         goal_handle.succeed()
 
         return result
 
-    def process_image(self, cv_image) -> YoloDetection:
+    def process_image(self, cv_image):
         self.get_logger().info("Processing image...")
-        model_result = self.model.predict(source=frame, conf=0.3, save=False, verbose=False)
+        model_result = self.model.predict(source=cv_image, conf=0.3, save=False, verbose=False)
         model_result = self.prediction_handling(model_result)
 
-        box_conf = [res["bbox"]["confidence"] for res in model_result]
-        max_value = max(box_conf)  # Finds the maximum value (8)
-        max_index = box_conf.index(max_value)  # Finds the index of the first occurrence of 8 (3)
+        # box_conf = [res["bbox"]["confidence"] for res in model_result]
+        # max_value = max(box_conf)  # Finds the maximum value (8)
+        # max_index = box_conf.index(max_value)  # Finds the index of the first occurrence of 8 (3)
 
-        res = model_result[max_index]
+        # res = model_result[max_index]
 
+        res = model_result
         det = self.convert_to_custom_msg(res)
 
         return det
@@ -185,22 +186,25 @@ class PerceptionNode(Node):
         return confidence_data
 
 
-    def convert_to_custom_msg(self, data: dict) -> YoloDetection:
-        det = CustomDetection()
-        bbox = data["bbox"]
-        kps = data["keypoints"]
+    def convert_to_custom_msg(self, data_list) -> YoloDetection[]:
+        res = []
+        for data in data_list:
+            det = YoloDetection()
+            bbox = data["bbox"]
+            kps = data["keypoints"]
 
-        det.x = float(bbox["x_center"])
-        det.y = float(bbox["y_center"])
-        det.w = float(bbox["width"])
-        det.h = float(bbox["height"])
-        det.conf = float(bbox["confidence"])
+            det.x = float(bbox["x_center"])
+            det.y = float(bbox["y_center"])
+            det.w = float(bbox["width"])
+            det.h = float(bbox["height"])
+            det.conf = float(bbox["confidence"])
 
-        det.x1, det.y1, det.conf1 = float(kps[0]["x"]), float(kps[0]["y"]), float(kps[0]["confidence"])
-        det.x2, det.y2, det.conf2 = float(kps[1]["x"]), float(kps[1]["y"]), float(kps[1]["confidence"])
-        det.x3, det.y3, det.conf3 = float(kps[2]["x"]), float(kps[2]["y"]), float(kps[2]["confidence"])
-
-        return det
+            det.x1, det.y1, det.conf1 = float(kps[0]["x"]), float(kps[0]["y"]), float(kps[0]["confidence"])
+            det.x2, det.y2, det.conf2 = float(kps[1]["x"]), float(kps[1]["y"]), float(kps[1]["confidence"])
+            det.x3, det.y3, det.conf3 = float(kps[2]["x"]), float(kps[2]["y"]), float(kps[2]["confidence"])
+            
+            res.append(det)
+        return res
 
 
 
